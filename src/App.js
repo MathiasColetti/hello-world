@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import "./App.css";
+import Challenge from "./components/Challenge";
 import Events from "./components/Events";
 import FirstComponent from "./components/FirstComponent";
 import MyComponent from "./components/MyComponent";
@@ -16,7 +17,8 @@ function App() {
       {/* <p>Meu primeiro paragrafo em REact</p> 
       <TemplateExpressions />
       <MyComponent /> */}
-      <Events />
+      {/* <Events /> */}
+      <Challenge />
     </div>
   );
 }

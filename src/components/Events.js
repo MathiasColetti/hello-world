@@ -2,6 +2,17 @@ const Events = () => {
   const handleMyEvent = (e) => {
     alert("Evento Ativo");
   };
+  const RenderSomething = (x) => {
+    if (x) {
+      return (
+        <div>
+          <h1>Renderizando isso</h1>
+        </div>
+      );
+    } else {
+      return <h1>Tambem posso Fazer isso</h1>;
+    }
+  };
   return (
     <div>
       <div>
@@ -18,6 +29,8 @@ const Events = () => {
           Clique Aqui Tambem
         </button>
       </div>
+      {RenderSomething(true)}
+      {RenderSomething(false)}
     </div>
   );
 };
