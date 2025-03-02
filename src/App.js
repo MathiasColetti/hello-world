@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import "./App.css";
+import Events from "./components/Events";
 import FirstComponent from "./components/FirstComponent";
 import MyComponent from "./components/MyComponent";
 import SecondComponent from "./components/SecondComponent";
@@ -9,12 +10,13 @@ import TesteComponent from "./components/TesteComponent";
 function App() {
   return (
     <div className="App">
-      <FirstComponent />
+      {/* <FirstComponent />
       <SecondComponent />
       <TesteComponent />
-      {/* <p>Meu primeiro paragrafo em REact</p> */}
+      {/* <p>Meu primeiro paragrafo em REact</p> 
       <TemplateExpressions />
-      <MyComponent />
+      <MyComponent /> */}
+      <Events />
     </div>
   );
 }
